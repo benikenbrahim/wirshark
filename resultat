@@ -1,0 +1,9 @@
+CritèreCoAPMQTTProtocole de transportUDPTCPLatence moyenneFaible (5-20 ms)Moyenne (20-50 ms)
+
+Overhead réseauTrès faible (~4 octets) Moyen (~20-40 octets)
+
+FiabilitéMoyenne (UDP non fiable, mais CON messages avec ACK)Élevée (TCP garantit la livraison + QoS 0/1/2)
+
+ScalabilitéLimitée (modèle client/serveur 1:1)Excellente (pub/sub 1:N via broker)
+
+Mode de communicationREST (Request/Response)Pub/Sub (via broker)
